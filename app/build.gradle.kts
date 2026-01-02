@@ -40,6 +40,7 @@ dependencies {
     implementation(libs.constraintlayout)
     implementation(libs.room.runtime)
     implementation("androidx.media:media:1.7.1")
+    testImplementation("org.mockito:mockito-core:5.8.0")
     annotationProcessor(libs.room.compiler)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)

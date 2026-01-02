@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class SongRepository {
+public class SongRepository implements IMusicRepository {
 
     private static final String TAG = "SongRepository";
     private final ContentResolver contentResolver;
